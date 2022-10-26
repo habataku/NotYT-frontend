@@ -1,6 +1,6 @@
 import { type Writable, writable, get } from "svelte/store";
 
-export const API_ENDPOINT:Writable<string> = writable("https://vid.puffyan.us")
+export const API_ENDPOINT:Writable<string> = writable("https://youtube.076.ne.jp")
 
 // proxy to bypass cors-disabled invidious instances
 export const useProxy:Writable<boolean> = writable(false)
