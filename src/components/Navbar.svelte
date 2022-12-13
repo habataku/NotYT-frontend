@@ -49,6 +49,7 @@
     max-width: 644px;
     flex-grow: 1;
     margin: 0 16px;
+    margin-left: auto;
 }
 .search-bar form{
     display: flex;
@@ -65,6 +66,7 @@
     border-bottom-right-radius: 0;
     background-color: var(--translucent-bg);
     color: var(--bg-invert);
+    z-index:1;
 }
 .search-bar input[type="submit"]{
     font-size: 24px;
